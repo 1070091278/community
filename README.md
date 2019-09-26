@@ -1,27 +1,5 @@
 ## 码匠社区
 
-## 快速运行
-1. 安装必备工具  
-JDK，Maven
-2. 克隆代码到本地  
-3. 运行命令创建数据库脚本
-```sh
-mvn flyway:migrate
-```
-4. 运行打包命令
-```sh
-mvn package
-```
-5. 运行项目  
-```sh
-java -jar target/community-0.0.1-SNAPSHOT.jar
-```
-6. 访问项目
-```
-http://localhost:8887
-```
-
-
 ## 资料
 [Spring 文档](https://spring.io/guides)    
 [Spring Web](https://spring.io/guides/gs/serving-web-content/)   
@@ -33,10 +11,7 @@ http://localhost:8887
 [菜鸟教程](https://www.runoob.com/mysql/mysql-insert-query.html)    
 [Thymeleaf](https://www.thymeleaf.org/doc/tutorials/3.0/usingthymeleaf.html#setting-attribute-values)    
 [Spring Dev Tool](https://docs.spring.io/spring-boot/docs/2.0.0.RC1/reference/htmlsingle/#using-boot-devtools)  
-[Spring MVC](https://docs.spring.io/spring/docs/5.0.3.RELEASE/spring-framework-reference/web.html#mvc-handlermapping-interceptor)  
-[Markdown 插件](http://editor.md.ipandao.com/)   
-[UFfile SDK](https://github.com/ucloud/ufile-sdk-java)  
-[Count(*) VS Count(1)](https://mp.weixin.qq.com/s/Rwpke4BHu7Fz7KOpE2d3Lw)  
+[Spring MVC](https://docs.spring.io/spring/docs/5.0.3.RELEASE/spring-framework-reference/web.html#mvc-handlermapping-interceptor)    
 
 ## 工具
 [Git](https://git-scm.com/download)   
@@ -66,10 +41,3 @@ mvn flyway:migrate
 mvn -Dmybatis.generator.overwrite=true mybatis-generator:generate
 ```
 
-## 更新日志
-- 2019-7-30 修复 session 过期时间很短问题   
-- 2019-8-2 修复因为*和+号产生的搜索异常问题  
-- 2019-8-18 添加首页按照最新、最热、零回复排序  
-- 2019-8-18 修复搜索输入 ? 号出现异常问题
-- 2019-8-22 修复图片大小限制和提问内容为空问题
-- 2019-9-1 添加动态导航栏

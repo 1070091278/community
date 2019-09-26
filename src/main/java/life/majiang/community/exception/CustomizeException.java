@@ -1,6 +1,5 @@
 package life.majiang.community.exception;
 
-
 public class CustomizeException extends RuntimeException {
     private String message;
     private Integer code;
